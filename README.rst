@@ -13,15 +13,14 @@ If you're using rebar (try it, it's great - http://hg.basho.com/rebar/wiki/Home)
 rebar.config: ::
 
   {deps, [
-    {reloader, "0.1", {git,
-    "http://github.com/bjnortier/reloader.git", "master"}}
+    {reloader, "0.1", {git, "http://github.com/bjnortier/reloader.git", "master"}}
   }
 
 then: ::
 
-  application:start(reloader)
+  application:start(reloader).
 
-Otherwise you can built it with: ::
+Otherwise you can build it with: ::
 
   $./rebar compile
 
