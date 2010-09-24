@@ -4,12 +4,12 @@ Overview
 Reloader is the fantastic reloader.erl from mochiweb packaged into an
 application. Use reloader during development to automatically reload 
 modules when they are compiled. It also re-runs tests if the 
-test/0 method is exported
+test/0 method is exported.
 
 Getting Started
 ---------------
 
-If you're using rebar (try it, it's great), you can add this to you
+If you're using rebar (try it, it's great - http://hg.basho.com/rebar/wiki/Home), you can add this to you
 rebar.config: ::
 
   {deps, [
